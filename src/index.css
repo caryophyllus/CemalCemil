@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 :root {
   --primary-red: #f3c303;
   --dark-red: #d6af14;
@@ -16,259 +18,375 @@
   padding: 0;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   background: var(--light-gray);
   color: var(--dark-gray);
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 /* ===== HEADER ===== */
 header {
   background: var(--primary-red);
   color: var(--white);
-  padding: 20px 40px;
+  padding: 1rem 1.5rem;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.25rem 2.5rem;
+  }
+}
+
+header .logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
 }
 
 header h1 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 1.75rem;
+    text-align: left;
+  }
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
 }
 
 nav a {
   color: var(--white);
   text-decoration: none;
-  margin-left: 20px;
   font-weight: 600;
-  padding: 6px 10px;
+  padding: 0.5rem 1rem;
   border-radius: 8px;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
 }
 
 nav a:hover {
   background: var(--dark-red);
 }
 
-/* ===== TOKO LIST ===== */
-.toko-list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.toko-card {
-  display: grid;
-  grid-template-columns: 3fr 2fr 4fr 2fr;
-  align-items: center;
-  padding: 16px;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  background: #fff;
-}
-
-.toko-card h4 {
-  margin: 0;
-  font-size: 16px;
-}
-
-.rating {
-  color: #f4b400;
-  font-size: 18px;
-}
-
-.toko-card a {
-  text-decoration: none;
-  color: var(--primary-red);
-  font-weight: 600;
-}
-
-@media (max-width: 768px) {
-  .toko-card {
-    grid-template-columns: 1fr;
-    gap: 8px;
+@media (min-width: 768px) {
+  nav a {
+    margin-left: 1rem;
+    font-size: 1rem;
   }
 }
 
-/* ===== HERO ===== */
+/* ===== HERO SECTION ===== */
 .hero {
   background: var(--cream);
-  padding: 60px 40px;
-  display: grid;
-  grid-template-columns: 6fr 6fr;
-  gap: 40px;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   align-items: center;
 }
 
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    padding: 3rem 2.5rem;
+    gap: 3rem;
+  }
+}
+
+.hero > div {
+  flex: 1;
+  width: 100%;
+}
+
 .hero h2 {
-  font-size: 36px;
+  font-size: 1.75rem;
   font-weight: 700;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hero h2 {
+    font-size: 2.25rem;
+    text-align: left;
+  }
 }
 
 .hero p {
-  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.8;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .hero p {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+}
+
+.hero img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .hero img {
+    margin: 0;
+  }
 }
 
 /* ===== SECTION ===== */
 section {
-  padding: 60px 40px;
+  padding: 2rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 3rem 2.5rem;
+  }
 }
 
 .section-title {
-  font-size: 18px;
+  font-size: 1.5rem;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
   color: var(--black);
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--primary-red);
+  display: inline-block;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+  }
 }
 
 /* ===== GRID & CARD ===== */
 .grid-3 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
 }
 
-/* ===== GRID KHUSUS OUR DEVELOPERS ===== */
+@media (min-width: 640px) {
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .grid-4 {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
 }
 
-/* Responsive */
-@media (max-width: 1024px) {
+@media (min-width: 640px) {
   .grid-4 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 1024px) {
   .grid-4 {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 .card {
   background: var(--white);
   border-radius: 12px;
-  padding: 16px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  padding: 1.25rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-a .card:hover {
-  transform: translateY(-4px);
-  transition: 0.2s ease;
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
 }
 
 .card img {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  height: 200px;
   object-fit: cover;
-  border-radius: 12px;
-  margin-bottom: 12px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
 }
 
 .card h3 {
-  font-size: 18px;
+  font-size: 1.25rem;
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: 0.75rem;
+  color: var(--black);
 }
 
 .card p {
-  font-size: 14px;
+  font-size: 0.95rem;
   color: var(--medium-gray);
+  line-height: 1.6;
+  flex-grow: 1;
 }
 
 /* ===== FOOTER ===== */
 footer {
   background: var(--dark-red);
   color: var(--white);
-  padding: 40px;
+  padding: 2rem 1.5rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: 1fr;
+  gap: 2rem;
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  footer {
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+    padding: 3rem 2.5rem;
+  }
+}
+
+footer > div {
+  margin-bottom: 1rem;
+}
+
 footer h4 {
-  font-size: 14px;
+  font-size: 1.1rem;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 0.75rem;
+  color: var(--cream);
 }
 
 footer p {
-  font-size: 12px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  opacity: 0.9;
 }
 
 .copyright {
   grid-column: 1 / -1;
-  font-size: 12px;
-  margin-top: 20px;
+  font-size: 0.85rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  text-align: center;
 }
 
-/* ===== RESPONSIVE ===== */
-@media (max-width: 900px) {
-  .hero {
-    grid-template-columns: 1fr;
-  }
-
-  .grid-3 {
-    grid-template-columns: 1fr;
-  }
-
-  footer {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* ===== BUTTON DETAIL TOKO ===== */
+/* ===== BUTTONS ===== */
 .btn-group {
   display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  margin-top: 24px;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 640px) {
+  .btn-group {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 .btn-link {
   background: var(--primary-red);
   color: var(--white);
   text-decoration: none;
-  padding: 12px 20px;
+  padding: 0.75rem 1.5rem;
   border-radius: 10px;
   font-weight: 600;
-  font-size: 14px;
-  transition: background 0.2s ease;
+  font-size: 0.95rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+  text-align: center;
+  display: inline-block;
 }
 
 .btn-link:hover {
   background: var(--dark-red);
+  transform: translateY(-2px);
 }
 
-/* ===== SUB KATEGORI BAR ===== */
+/* ===== SUB CATEGORY ===== */
 .sub-category {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 24px 0;
-  flex-wrap: wrap;
-  gap: 12px;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1.5rem 1.5rem 0;
+  padding: 0 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .sub-category {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 2.5rem 0;
+    padding: 0;
+  }
 }
 
 .sub-category .menu {
   display: flex;
-  gap: 12px;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .sub-category .menu {
+    justify-content: flex-start;
+    gap: 0.75rem;
+  }
 }
 
 .sub-category a {
-  padding: 10px 18px;
+  padding: 0.5rem 1rem;
   border-radius: 8px;
   background: #f5f5f5;
   text-decoration: none;
   color: #333;
   font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
 }
 
 .sub-category a.active {
@@ -276,37 +394,57 @@ footer p {
   color: white;
 }
 
-/* ===== DEVELOPER CARD INTERACTIVE ===== */
+.sub-category input {
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 300px;
+  font-size: 0.9rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .sub-category input {
+    margin: 0;
+  }
+}
+
+/* ===== DEVELOPER CARDS ===== */
 .dev-card {
   cursor: pointer;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition: all 0.3s ease;
 }
 
 .dev-card:hover {
-  transform: translateY(-6px) scale(1.02);
+  transform: translateY(-8px);
   box-shadow: 0 12px 25px rgba(0,0,0,0.15);
 }
 
 .dev-card img {
-  transition: transform 0.25s ease;
+  transition: transform 0.3s ease;
 }
 
 .dev-card:hover img {
   transform: scale(1.05);
 }
 
-/* ===== MODAL DEVELOPER FINAL ===== */
+/* ===== MODAL ===== */
 .dev-modal {
   position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.5);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.7);
   display: flex;
   justify-content: center;
   align-items: center;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
-  z-index: 999;
+  z-index: 1000;
+  padding: 1rem;
 }
 
 .dev-modal.active {
@@ -316,13 +454,13 @@ footer p {
 
 .dev-modal-content {
   background: white;
-  padding: 28px;
-  border-radius: 18px;
-  max-width: 360px;
-  width: 90%;
+  padding: 2rem;
+  border-radius: 16px;
+  max-width: 400px;
+  width: 100%;
   text-align: center;
-  transform: scale(0.6);
-  transition: transform 0.35s ease;
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
 }
 
 .dev-modal.active .dev-modal-content {
@@ -330,9 +468,240 @@ footer p {
 }
 
 .dev-modal-content img {
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 12px;
+  margin-bottom: 1rem;
+  border: 4px solid var(--primary-red);
+}
+
+/* ===== TOKO LIST ===== */
+.toko-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.toko-card {
+  background: white;
+  padding: 1.25rem;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .toko-card {
+    grid-template-columns: 3fr 2fr 4fr 2fr;
+    gap: 1rem;
+  }
+}
+
+.toko-card h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.rating {
+  color: #f4b400;
+  font-size: 1.1rem;
+}
+
+.toko-card p {
+  font-size: 0.9rem;
+  color: var(--medium-gray);
+  margin: 0;
+}
+
+.toko-card a {
+  text-decoration: none;
+  color: var(--primary-red);
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.toko-card a:hover {
+  color: var(--dark-red);
+  text-decoration: underline;
+}
+
+/* ===== FORM ===== */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.875rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  transition: border 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: var(--primary-red);
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+form button {
+  background: var(--primary-red);
+  color: white;
+  padding: 0.875rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  form button {
+    width: auto;
+  }
+}
+
+form button:hover {
+  background: var(--dark-red);
+  transform: translateY(-2px);
+}
+
+/* ===== UTILITY ===== */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-2 { margin-top: 2rem; }
+.mb-2 { margin-bottom: 2rem; }
+.mt-3 { margin-top: 3rem; }
+.mb-3 { margin-bottom: 3rem; }
+
+/* ===== HERO LAYOUT ===== */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  background: #f6f1e7;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-image img {
+  width: 420px;
+  border-radius: 20px;
+}
+
+/* ===== HERO BUTTONS ===== */
+.hero-buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+/* Tombol kuning */
+.btn-primary {
+  background: #f4b400;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: #e09f00;
+  transform: translateY(-2px);
+}
+
+/* Tombol putih */
+.btn-secondary {
+  background: white;
+  color: black;
+  padding: 10px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background: #f4f4f4;
+  transform: translateY(-2px);
+}
+
+/* ===== SECTION PUTIH ===== */
+.home-info {
+  background: white;
+  margin: 50px 80px;
+  padding: 40px;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+/* kontak icon rapih */
+.contact-item {
+  margin-top: 6px;
+}
+
+/* ===== FOOTER NORMAL ===== */
+footer {
+  background: #f4b400;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-image img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .home-info {
+    grid-template-columns: 1fr;
+    margin: 30px 20px;
+    text-align: center;
+  }
 }

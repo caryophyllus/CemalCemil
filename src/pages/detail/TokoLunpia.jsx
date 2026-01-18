@@ -18,7 +18,7 @@ const TokoLunpia = () => {
       <section>
         <Link to="/lunpia" className="btn-link">← Kembali</Link>
         
-        <h2 className="section-title">Daftar Toko Lunpia Terbaik</h2>
+        <h2 className="section-title">Daftar Toko Lunpia</h2>
 
         <div className="toko-list">
           {tokoList.map((toko, index) => (
