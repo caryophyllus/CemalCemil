@@ -2,31 +2,29 @@ import { Link } from 'react-router-dom'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import '../../index.css'
-import lunpia from '../../assets/lunpia.avif'
+import kue_moaci from '../../assets/kue_moaci_gemini.jpg'
 
-const Lunpia = () => {
+const Moaci = () => {
   return (
     <>
       <Header />
       
       <section>
-        <h2 className="section-title">LUNPIA</h2>
+        <h2 className="section-title">KUE MOACI GEMINI</h2>
 
         <div className="hero" style={{background: 'none', padding: 0, gridTemplateColumns: '6fr 6fr'}}>
           <div>
-            <img src={lunpia} alt="Lunpia Semarang" />
+            <img src={kue_moaci} alt="Kue Moaci Gemini Semarang" />
           </div>
 
           <div>
             <p>
-              Lunpia adalah hidangan khas Semarang berisi rebung muda,
-              telur, dan udang yang dibungkus kulit tipis kemudian
-              digoreng ringan sehingga menghasilkan rasa gurih manis
-              yang harum, renyah di luar, dan lembut di dalam.
+              Kue Moaci Gemini adalah kue kenyal berbalut wijen dengan isian kacang manis.
+              Kue ini memiliki tekstur lembut dan rasa manis yang khas, serta aroma harum dari wijen.
             </p>
             <br />
             <p>
-              Lunpia biasanya disajikan dengan saus kental khas,
+              Kue Moaci Gemini biasanya disajikan dengan saus kental khas,
               acar mentimun, dan daun bawang, menjadikannya salah satu
               ikon kuliner paling terkenal dari Kota Semarang.
             </p>
@@ -35,7 +33,7 @@ const Lunpia = () => {
 
         <div className="btn-group">
           <Link to="/makanan-ringan" className="btn-link">← Kembali</Link>
-          <Link to="/toko-lunpia" className="btn-link">Lihat Daftar Toko</Link>
+          <Link to="/toko-moaci" className="btn-link">Lihat Daftar Toko</Link>
         </div>
       </section>
 
@@ -44,4 +42,4 @@ const Lunpia = () => {
   )
 }
 
-export default Lunpia
+export default Moaci

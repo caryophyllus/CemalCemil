@@ -36,7 +36,7 @@ const Wingko = () => {
 
         <div className="btn-group">
           <Link to="/makanan-ringan" className="btn-link">← Kembali</Link>
-          <Link to="/toko-lunpia" className="btn-link">Lihat Daftar Toko</Link>
+          <Link to="/toko-wingko" className="btn-link">Lihat Daftar Toko</Link>
         </div>
       </section>
 

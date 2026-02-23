@@ -8,6 +8,7 @@ import bandeng_presto from '../assets/bandeng_presto.jpeg'
 import tahu_gimbal from '../assets/tahu_gimbal.jpeg'
 import wingko_babat from '../assets/wingko_babat.jpg'
 import es_puter from '../assets/es_puter.jpg'
+import kue_moaci from '../assets/kue_moaci_gemini.jpg'
 
 const Category = () => {
   const foods = [
