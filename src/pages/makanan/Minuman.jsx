@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import '../../index.css'
+import wedangronde from '../../assets/wedang_ronde.jpg'
+import esputer from '../../assets/es_puter.jpg'
+import esmarem from '../../assets/es_marem.jpg'
+import kolakPisang from '../../assets/kolak.jpg'
+import wedangJahe from '../../assets/wedang_jahe.jpg'
+import wedangKembangTahu from '../../assets/wedang_kembang_tahu.jpg'
 
 const Minuman = () => {
   const [searchTerm, setSearchTerm] = useState('')
@@ -11,32 +17,38 @@ const Minuman = () => {
     {
       name: "Wedang Ronde",
       desc: "Minuman jahe hangat berisi bola-bola ketan manis yang menghangatkan tubuh.",
-      image: "https://via.placeholder.com/300"
+      image: wedangronde,
+      link: "/wedang-ronde"
     },
     {
       name: "Wedang Kembang Tahu",
       desc: "Minuman hangat lembut berisi pudding kedelai dengan kuah jahe manis yang menenangkan.",
-      image: "https://via.placeholder.com/300"
+      image: wedangKembangTahu,
+      link: "/wedang-kembang-tahu"
     },
     {
       name: "Kolak",
       desc: "Hidangan manis berkuah dengan pisang yang menawarkan rasa lembut, legit, dan hangat.",
-      image: "https://via.placeholder.com/300"
+      image: kolakPisang,
+      link: "/kolak"
     },
     {
-      name: "Minuman Jahe",
+      name: "Wedang Jahe",
       desc: "Minuman hangat beraroma tajam dengan rasa pedas lembut yang menghangatkan tubuh.",
-      image: "https://via.placeholder.com/300"
+      image: wedangJahe,
+      link: "/wedang-jahe"
     },
     {
       name: "Es Puter",
       desc: "Es tradisional bertekstur lembut dengan rasa manis segar dan aneka varian.",
-      image: "https://via.placeholder.com/300"
+      image: esputer,
+      link: "/es-puter"
     },
     {
       name: "Es Marem",
       desc: "Es tradisional dengan rasa manis segar yang dibuat dari santan dan gula.",
-      image: "https://via.placeholder.com/300"
+      image: esmarem,
+      link: "/es-marem"
     }
   ]
 
@@ -69,11 +81,13 @@ const Minuman = () => {
         <h2 className="section-title">MINUMAN</h2>
         <div className="grid-3">
           {filteredDrinks.map((drink, index) => (
-            <div key={index} className="card">
-              <img src={drink.image} alt={drink.name} />
-              <h3>{drink.name}</h3>
-              <p>{drink.desc}</p>
-            </div>
+            <Link key={index} to={drink.link} style={{textDecoration:'none', color:'inherit'}}>
+              <div className="card">
+                <img src={drink.image} alt={drink.name} />
+                <h3>{drink.name}</h3>
+                <p>{drink.desc}</p>
+              </div>
+            </Link>
           ))}
         </div>
       </section>

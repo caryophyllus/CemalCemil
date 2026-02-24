@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import '../../index.css'
-import kue_moaci from '../../assets/kue_moaci_gemini.jpg'
+import kue_moaci from '../../assets/moaci_gemini.jpg'
 
 const Moaci = () => {
   return (

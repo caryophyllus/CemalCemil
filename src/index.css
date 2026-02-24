@@ -98,7 +98,6 @@ nav a:hover {
 
 /* ===== HERO SECTION ===== */
 .hero {
-  background: var(--cream);
   padding: 2rem 1.5rem;
   display: flex;
   flex-direction: column;

@@ -22,6 +22,29 @@ import BandengPresto from './pages/detail/BandengPresto'
 import NasiAyam from './pages/detail/NasiAyam'
 import Moaci from './pages/detail/Moaci'
 import TokoMoaci from './pages/detail/TokoMoaci'
+import Torakur from './pages/detail/Torakur'
+import WedangRonde from './pages/detail/WedangRonde'
+import LapisLegit from './pages/detail/LapisLegit'
+import Gandos from './pages/detail/Gandos'
+import WedangKembangTahu from './pages/detail/WedangKembangTahu'
+import Kolak from './pages/detail/Kolak'
+import WedangJahe from './pages/detail/WedangJahe'
+import EsPuter from './pages/detail/EsPuter'
+import EsMarem from './pages/detail/EsMarem'
+import TokoBandengPresto from './pages/detail/TokoBandengPresto'
+import TokoSoto from './pages/detail/TokoSoto'
+import TokoEsMarem from './pages/detail/TokoEsMarem'
+import TokoEsPuter from './pages/detail/TokoEsPuter'
+import TokoGandos from './pages/detail/TokoGandos'
+import TokoGarangAsem from './pages/detail/TokoGarangAsem'
+import TokoMieKopyok from './pages/detail/TokoMieKopyok'
+import TokoNasiAyam from './pages/detail/TokoNasiAyam'
+import TokoLapisLegit from './pages/detail/TokoLapisLegit'
+import TokoTorakur from './pages/detail/TokoTorakur'
+import TokoWedangRonde from './pages/detail/TokoWedangRonde'
+import TokoWedangKembangTahu from './pages/detail/TokoWedangKembangTahu'
+import TokoKolak from './pages/detail/TokoKolak'
+import TokoWedangJahe from './pages/detail/TokoWedangJahe'
 
 function App() {
   return (
@@ -51,6 +74,29 @@ function App() {
           <Route path="/nasi-ayam" element={<NasiAyam />} />
           <Route path="/moaci" element={<Moaci />} />
           <Route path="/toko-moaci" element={<TokoMoaci />} />
+          <Route path="/torakur" element={<Torakur />} />
+          <Route path="/wedang-ronde" element={<WedangRonde />} />
+          <Route path="/lapis-legit" element={<LapisLegit />} />
+          <Route path="/gandos" element={<Gandos />} />
+          <Route path="/wedang-kembang-tahu" element={<WedangKembangTahu />} />
+          <Route path="/kolak" element={<Kolak />} />
+          <Route path="/wedang-jahe" element={<WedangJahe />} />
+          <Route path="/es-puter" element={<EsPuter />} />
+          <Route path="/es-marem" element={<EsMarem />} />
+          <Route path="/toko-bandeng-presto" element={<TokoBandengPresto />} />
+          <Route path="/toko-soto" element={<TokoSoto />} />
+          <Route path="/toko-es-marem" element={<TokoEsMarem />} />
+          <Route path="/toko-es-puter" element={<TokoEsPuter />} />
+          <Route path="/toko-gandos" element={<TokoGandos />} />
+          <Route path="/toko-garang-asem" element={<TokoGarangAsem />} />
+          <Route path="/toko-mie-kopyok" element={<TokoMieKopyok />} />
+          <Route path="/toko-nasi-ayam" element={<TokoNasiAyam />} />
+          <Route path="/toko-lapis-legit" element={<TokoLapisLegit />} />
+          <Route path="/toko-torakur" element={<TokoTorakur />} />
+          <Route path="/toko-wedang-ronde" element={<TokoWedangRonde />} />
+          <Route path="/toko-wedang-kembang-tahu" element={<TokoWedangKembangTahu />} />
+          <Route path="/toko-kolak" element={<TokoKolak />} />
+          <Route path="/toko-wedang-jahe" element={<TokoWedangJahe />} />
         </Routes>
       </main>
     </>
