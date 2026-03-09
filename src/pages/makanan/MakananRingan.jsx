@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
@@ -11,6 +11,29 @@ import lapisLegit from '../../assets/lapis_legit_waiki.jpg'
 import torakur from '../../assets/torakur.jpg'
 
 const MakananRingan = () => {
+  const [isVisible, setIsVisible] = useState(false)
+
+useEffect(() => {
+  setTimeout(() => {
+    setIsVisible(true)
+  }, 50)
+}, [])
+
+  const text = "MAKANAN RINGAN"
+  const [displayText, setDisplayText] = useState("")
+  const [index, setIndex] = useState(0)
+
+  useEffect(() => {
+    if (index < text.length) {
+      const timeout = setTimeout(() => {
+        setDisplayText((prev) => prev + text[index])
+        setIndex(index + 1)
+      }, 120)
+
+      return () => clearTimeout(timeout)
+    }
+  }, [index])
+
   const [searchTerm, setSearchTerm] = useState('')
 
   const makananRingan = [
@@ -77,8 +100,10 @@ const MakananRingan = () => {
           />
         </div>
 
-        <section>
-          <h2 className="section-title">MAKANAN RINGAN</h2>
+        <section className={`page-transition ${isVisible ? "show" : ""}`}>
+          <h2 className="section-ti typing">
+            {displayText}
+          </h2>
           <div className="grid-3">
             {filteredFoods.map((food, index) => (
               <Link key={index} to={food.link} style={{textDecoration:'none', color:'inherit'}}>

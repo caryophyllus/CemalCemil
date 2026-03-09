@@ -19,14 +19,7 @@ const Moaci = () => {
 
           <div>
             <p>
-              Kue Moaci Gemini adalah kue kenyal berbalut wijen dengan isian kacang manis.
-              Kue ini memiliki tekstur lembut dan rasa manis yang khas, serta aroma harum dari wijen.
-            </p>
-            <br />
-            <p>
-              Kue Moaci Gemini biasanya disajikan dengan saus kental khas,
-              acar mentimun, dan daun bawang, menjadikannya salah satu
-              ikon kuliner paling terkenal dari Kota Semarang.
+              Moaci Gemini adalah oleh-oleh legendaris khas Semarang, Jawa Tengah, yang populer sejak 1985. Berupa kue mochi kenyal berisi kacang karamel gurih dengan baluran wijen atau tepung, serta memiliki berbagai varian rasa. Kudapan ini terkenal dengan bahan alami, tanpa pengawet, dan tekstur yang lembut, menjadikannya buah tangan populer.
             </p>
           </div>
         </div>

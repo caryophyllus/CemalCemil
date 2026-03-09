@@ -19,11 +19,7 @@ const NasiAyam = () => {
 
           <div>
             <p>
-              Nasi Ayam adalah nasi dengan suwiran ayam berbumbu khas yang disajikan lengkap dengan pelengkap.
-            </p>
-            <br />
-            <p>
-              Masakan ini memiliki rasa gurih dan lezat, serta disajikan dengan bumbu rempah khas Semarang.
+              Nasi Ayam Semarang adalah kuliner khas Semarang berupa nasi gurih (dimasak santan) yang disiram kuah opor kental, disajikan dengan suwiran ayam, sayur labu siam (sambal goreng jipang), krecek, dan telur pindang. Kuliner ini memiliki cita rasa gurih, sedikit manis, dan biasanya disajikan di atas daun pisang, sering ditemani aneka sate jeroan/telur.
             </p>
             <br />
           </div>

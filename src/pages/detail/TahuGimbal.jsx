@@ -19,13 +19,7 @@ const TahuGimbal = () => {
 
           <div>
             <p>
-              Tahu gimbal adalah hidangan khas Semarang yang terbuat dari tahu yang digoreng dan disajikan dengan udang goreng serta bumbu kacang khas Semarang.
-            </p>
-            <br />
-            <p>
-              Tahu gimbal biasanya disajikan dengan saus kental khas,
-              acar mentimun, dan daun bawang, menjadikannya salah satu
-              ikon kuliner paling terkenal dari Kota Semarang.
+              Tahu gimbal adalah kuliner khas Semarang, Jawa Tengah, berupa potongan tahu goreng, gimbal (bakwan udang), lontong, taoge, dan kol mentah yang disiram bumbu kacang petis yang kental dan gurih. Ikon kuliner ini terkenal dengan perpaduan tekstur renyah dan bumbu petis yang khas.
             </p>
             <br />
           </div>

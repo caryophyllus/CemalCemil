@@ -5,10 +5,8 @@ import '../../index.css'
 
 const TokoTorakur = () => {
   const tokoList = [
-    { name: "Torakur Sdr Sugito", rating: "★★★★★", address: "Jl. Merbabu Raya Perum Banyumanik Padangsari, Semarang" },
-    { name: "Torakur Mbak Lien", rating: "★★★★☆", address: "Jl. Pemuda, Semarang" },
-    { name: "Torakur Cik Me Me", rating: "★★★★☆", address: "Jl. Gajahmada, Semarang" },
-    { name: "Torakur Express Semarang", rating: "★★★☆☆", address: "Jl. Pandanaran, Semarang" }
+    { name: "Pusat Oleh Oleh Khas Kab. Semarang TORAKUR", rating: "★★★★☆", address: "Jl. Pangeran Diponegoro KM 1,7 No.51, Tangaran, Kenteng, Bandungan, Kabupaten Semarang, Jawa Tengah 50614" },
+    { name: "Torakur Bandungan", rating: "★★★★★", address: "Jl. Ampel Gading No.5/6, Gatun, Kenteng, Bandungan, Kabupaten Semarang, Jawa Tengah 50614" }
   ]
 
   return (

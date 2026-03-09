@@ -19,9 +19,12 @@ const WedangKembangTahu = () => {
 
           <div>
             <p>
-              Wedang Kembang Tahu merupakan minuman hangat berisi bola-bola tahu yang lembut dan manis. Minuman ini memiliki rasa lembut dan aromatik yang khas, sering disajikan saat cuaca dingin.
+              Wedang tahu adalah minuman yang beromakan jahe dan berisi kembang tahu yang terbuat dari sari kedelai. Minuman ini berkhasiat sebagai penghangat tubuh dan sangat cocok bila dinikmati pada musim hujan, pada pagi ataupun sore hari.
             </p>
             <br />
+            <p>
+              Wedang tahu terbuat dari susu kedelai yang dicampur dengan air garam, dan bubuk agar-agar yang dimasak sehingga menjadi kembang tahu atau tahu sutera, yang akan dijadikan sebagai isi dari wedang tahu tersebut.
+            </p>
           </div>
         </div>
 

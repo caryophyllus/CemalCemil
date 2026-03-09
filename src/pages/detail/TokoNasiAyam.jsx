@@ -5,10 +5,10 @@ import '../../index.css'
 
 const TokoNasiAyam = () => {
   const tokoList = [
-    { name: "Nasi Ayam Sdr Sugito", rating: "★★★★★", address: "Jl. Merbabu Raya Perum Banyumanik Padangsari, Semarang" },
-    { name: "Nasi Ayam Mbak Lien", rating: "★★★★☆", address: "Jl. Pemuda, Semarang" },
-    { name: "Nasi Ayam Cik Me Me", rating: "★★★★☆", address: "Jl. Gajahmada, Semarang" },
-    { name: "Nasi Ayam Express Semarang", rating: "★★★☆☆", address: "Jl. Pandanaran, Semarang" }
+    { name: "Nasi Ayam Bu Darmi", rating: "★★★★★", address: "pusat kuliner batan selatan, Miroto, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50134" },
+    { name: "Nasi Ayam Bu Pini", rating: "★★★★★", address: "Gg. Pinggir No.75, Kranggan, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50139" },
+    { name: "Nasi Ayam Bu Jawi", rating: "★★★★★", address: "Jl. MH Thamrin No.82B, Miroto, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50134" },
+    { name: "Nasi Ayam Bu Wido", rating: "★★★★★", address: "Jl. Melati Selatan, Brumbungan, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50135" }
   ]
 
   return (

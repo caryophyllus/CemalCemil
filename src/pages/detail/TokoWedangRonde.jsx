@@ -5,10 +5,12 @@ import '../../index.css'
 
 const TokoWedangRonde = () => {
   const tokoList = [
-    { name: "Wedang Ronde Sdr Sugito", rating: "★★★★★", address: "Jl. Merbabu Raya Perum Banyumanik Padangsari, Semarang" },
-    { name: "Wedang Ronde Mbak Lien", rating: "★★★★☆", address: "Jl. Pemuda, Semarang" },
-    { name: "Wedang Ronde Cik Me Me", rating: "★★★★☆", address: "Jl. Gajahmada, Semarang" },
-    { name: "Wedang Ronde Express Semarang", rating: "★★★☆☆", address: "Jl. Pandanaran, Semarang" }
+    { name: "Wedang Ronde Pak Firdaus", rating: "★★★★★", address: "Jl. Anjasmoro Raya No.70, Karangayu, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50149" },
+    { name: "Wedang Ronde Pak Sabar", rating: "★★★★★", address: "Jl. Pahlawan, Pleburan, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50249" },
+    { name: "Wedang Ronde Ny. Ong", rating: "★★★★★", address: "Jl. Pleburan Raya No.30, Pleburan, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50241" },
+    { name: "Wedang Ronde Mahkota", rating: "★★★★★", address: "Jl. Ligu Tengah No.1062B, Karangkidul, Kec. Semarang Tim., Kota Semarang, Jawa Tengah 50124" },
+    { name: "Ronde Pemuda", rating: "★★★★★", address: "Jl. Abdulrahman Saleh, Manyaran, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50183" },
+    { name: "Wedang Ronde Arum Dalu", rating: "★★★★★", address: "Jl. Arum Sari Raya, Sambiroto, Kec. Tembalang, Kota Semarang, Jawa Tengah" }
   ]
 
   return (

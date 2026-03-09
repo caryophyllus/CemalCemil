@@ -5,10 +5,7 @@ import '../../index.css'
 
 const TokoGandos = () => {
   const tokoList = [
-    { name: "Gandos Sdr Sugito", rating: "★★★★★", address: "Jl. Merbabu Raya Perum Banyumanik Padangsari, Semarang" },
-    { name: "Gandos Mbak Lien", rating: "★★★★☆", address: "Jl. Pemuda, Semarang" },
-    { name: "Gandos Cik Me Me", rating: "★★★★☆", address: "Jl. Gajahmada, Semarang" },
-    { name: "Gandos Express Semarang", rating: "★★★☆☆", address: "Jl. Pandanaran, Semarang" }
+    { name: "Kue Gandos Uhuwi", rating: "★★★★★", address: "Wates, Ngaliyan, Semarang City, Central Java" }
   ]
 
   return (

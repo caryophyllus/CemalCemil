@@ -5,10 +5,11 @@ import '../../index.css'
 
 const TokoMieKopyok = () => {
   const tokoList = [
-    { name: "Mie Kopyok Sdr Sugito", rating: "★★★★★", address: "Jl. Merbabu Raya Perum Banyumanik Padangsari, Semarang" },
-    { name: "Mie Kopyok Mbak Lien", rating: "★★★★☆", address: "Jl. Pemuda, Semarang" },
-    { name: "Mie Kopyok Cik Me Me", rating: "★★★★☆", address: "Jl. Gajahmada, Semarang" },
-    { name: "Mie Kopyok Express Semarang", rating: "★★★☆☆", address: "Jl. Pandanaran, Semarang" }
+    { name: "Mie Kopyok Pak Dhuwur", rating: "★★★★☆", address: "Jl. Tanjung No.18A, Pandansari, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50132" },
+    { name: "Mie Kopyok Pak Poer", rating: "★★★★★", address: "Jl. Menteri Supeno, Mugassari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah" },
+    { name: "Mie Kopyok Nurra", rating: "★★★★★", address: "Jl. Pusponjolo Slt No.201, Bojongsalaman, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50141" },
+    { name: "Mie Kopyok Pak Ngadi", rating: "★★★★★", address: "Jl. Karang Anyar, Gabahan, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50135" },
+    { name: "Mie Kopyok Antok", rating: "★★★★★", address: "Jl. Pandanaran 1 No.29, Pekunden, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50241" }
   ]
 
   return (

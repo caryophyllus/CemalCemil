@@ -19,11 +19,7 @@ const SotoSemarang = () => {
 
           <div>
             <p>
-              Soto Semarang adalah hidangan khas Semarang yang terbuat dari sup daging sapi atau ayam dengan kuah yang kental dan bumbu rempah khas Semarang.
-            </p>
-            <br />
-            <p>
-              Soto Semarang biasanya disajikan dengan bumbu rempah khas Semarang yang kuat, menjadikannya salah satu hidangan ikonik dari kota ini.
+              Soto Semarang adalah hidangan soto ayam khas Semarang, Jawa Tengah, yang berciri khas kuah kaldu ayam bening kecokelatan, gurih, dan ringan. Disajikan dalam mangkuk porselen kecil, isiannya terdiri dari suwiran ayam kampung, tauge, bihun, daun bawang, serta bawang goreng. Sate kerang dan sate telur puyuh sering menjadi pelengkap.
             </p>
             <br />
           </div>

@@ -19,9 +19,12 @@ const WedangRonde = () => {
 
           <div>
             <p>
-              Wedang Ronde merupakan minuman hangat berisi bola-bola ketan manis yang menghangatkan tubuh. Minuman ini memiliki rasa manis dan aromatik yang khas, sering disajikan saat cuaca dingin.
+              Wedang ronde adalah salah satu minuman khas Jawa Tengah. Minuman ini mengandung ramuan agak pedas (seperti jahe) dengan penganan bulat-bulat kecil di dalamnya.
             </p>
             <br />
+            <p>
+              Pembuatan wedang ronde terdiri dari kuah jahe yang berisi ronde yang berbentuk bulat-bulat. Wedang jahe merupakan hasil akulturasi dengan Festival Dongzhi di Kota Tangerang yang menyajikan ronde. Penyajian wedang jahe dalam keadaan hangat atau panas pada cuaca dingin atau malam hari. Di Indonesia, selain di Kota Tangerang, ronde juga disajikan di Kota Salatiga dan Kota Yogyakarta. Wedang ronde memberikan rasa hangat dan menyegarkan serta dapat menyehatkan tubuh.
+            </p>
           </div>
         </div>
 

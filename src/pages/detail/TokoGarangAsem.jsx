@@ -5,10 +5,10 @@ import '../../index.css'
 
 const TokoGarangAsem = () => {
   const tokoList = [
-    { name: "Garang Asem Sdr Sugito", rating: "★★★★★", address: "Jl. Merbabu Raya Perum Banyumanik Padangsari, Semarang" },
-    { name: "Garang Asem Mbak Lien", rating: "★★★★☆", address: "Jl. Pemuda, Semarang" },
-    { name: "Garang Asem Cik Me Me", rating: "★★★★☆", address: "Jl. Gajahmada, Semarang" },
-    { name: "Garang Asem Express Semarang", rating: "★★★☆☆", address: "Jl. Pandanaran, Semarang" }
+    { name: "Garang Asem Sari Rasa", rating: "★★★★★", address: "Jl. Ki Mangunsarkoro No.15, Karangkidul, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50136" },
+    { name: "Waroeng Garang Asem Putra Joyoboyo", rating: "★★★★★", address: "Jl. Batan Selatan, Pekunden, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50241" },
+    { name: "Umi Ayam Bakar & Garang Asem", rating: "★★★★★", address: "Jl. Simongan No.18, Ngemplak Simongan, Jawa Tengah, Kota Semarang, Jawa Tengah 50148" },
+    { name: "Garang Asem & Gudeg Hj. Sarti", rating: "★★★★☆", address: "Jl. Sambiroto Raya No.70, Sambiroto, Kec. Tembalang, Kota Semarang, Jawa Tengah 50276" }
   ]
 
   return (

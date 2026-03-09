@@ -5,10 +5,12 @@ import '../../index.css'
 
 const TokoTahuGimbal = () => {
   const tokoList = [
-    { name: "Tahu Gimbal Gang Lombok", rating: "★★★★★", address: "Jl. Gang Lombok No.11, Semarang" },
-    { name: "Tahu Gimbal Mbak Lien", rating: "★★★★☆", address: "Jl. Pemuda, Semarang" },
-    { name: "Tahu Gimbal Cik Me Me", rating: "★★★★☆", address: "Jl. Gajahmada, Semarang" },
-    { name: "Tahu Gimbal Express Semarang", rating: "★★★☆☆", address: "Jl. Pandanaran, Semarang" }
+    { name: "Tahu Gimbal Haji Edy", rating: "★★★★☆", address: "Jl. Pandanaran No.2, Mugassari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50249" },
+    { name: "Tahu Gimbal Bang Toyib", rating: "★★★★★", address: "Jl. Suratmo, Gisikdrono, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50147" },
+    { name: "Tahu Gimbal Pak Gendut", rating: "★★★★★", address: "Jl. Veteran No.34, Lempongsari, Kec. Gajahmungkur, Kota Semarang, Jawa Tengah 50231" },
+    { name: "Tahu Gimbal Super Setan Pak Agus", rating: "★★★★★", address: "Jl. Simongan No.195, Ngemplak Simongan, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50148" },
+    { name: "Tahu Gimbal Lumayan Pak Man", rating: "★★★★☆", address: "Jl. Plampitan No.54, Bangunharjo, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50139" },
+    { name: "Tahu Gimbal Pak Tomo", rating: "★★★★★", address: "Jl. Plampitan No.54, Bangunharjo, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50139" }
   ]
 
   return (

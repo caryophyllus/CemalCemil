@@ -19,16 +19,11 @@ const Lunpia = () => {
 
           <div>
             <p>
-              Lunpia adalah hidangan khas Semarang berisi rebung muda,
-              telur, dan udang yang dibungkus kulit tipis kemudian
-              digoreng ringan sehingga menghasilkan rasa gurih manis
-              yang harum, renyah di luar, dan lembut di dalam.
+              Lunpia adalah hidangan khas Semarang berisi rebung muda, telur, dan udang yang dibungkus kulit tipis kemudian digoreng ringan sehingga menghasilkan rasa gurih manis yang harum, renyah di luar, dan lembut di dalam.
             </p>
             <br />
             <p>
-              Lunpia biasanya disajikan dengan saus kental khas,
-              acar mentimun, dan daun bawang, menjadikannya salah satu
-              ikon kuliner paling terkenal dari Kota Semarang.
+              Lunpia biasanya disajikan dengan saus kental khas, acar mentimun, dan daun bawang, menjadikannya salah satu ikon kuliner paling terkenal dari Kota Semarang.
             </p>
           </div>
         </div>

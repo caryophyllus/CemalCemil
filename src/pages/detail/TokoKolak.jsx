@@ -5,10 +5,10 @@ import '../../index.css'
 
 const TokoKolak = () => {
   const tokoList = [
-    { name: "Kolak Sdr Sugito", rating: "★★★★★", address: "Jl. Merbabu Raya Perum Banyumanik Padangsari, Semarang" },
-    { name: "Kolak Mbak Lien", rating: "★★★★☆", address: "Jl. Pemuda, Semarang" },
-    { name: "Kolak Cik Me Me", rating: "★★★★☆", address: "Jl. Gajahmada, Semarang" },
-    { name: "Kolak Express Semarang", rating: "★★★☆☆", address: "Jl. Pandanaran, Semarang" }
+    { name: "Warung Rujak dan Kolak Setup Bu Oni", rating: "★★★★★", address: "Jl. Puspowarno Selatan III, RT.1/RW.5, Salamanmloyo, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50149" },
+    { name: "Aneka Bubur dan Kolak pak Roso", rating: "★★★★★", address: "Jl. Singosari Raya, Wonodri, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50241" },
+    { name: "Aneka Bubur dan Kolak", rating: "★★★★☆", address: "Jl. Tm.Lebdosari No.41, Kalibanteng Kulon, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50145" },
+    { name: "Warung Es Kelapa Muda & Es Kolak Pisang Bu Marni", rating: "★★★★★", address: "Tlogosari Kulon, Pedurungan, Semarang City, Central Java 50196" }
   ]
 
   return (

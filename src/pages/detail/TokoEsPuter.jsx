@@ -5,10 +5,11 @@ import '../../index.css'
 
 const TokoEsPuter = () => {
   const tokoList = [
-    { name: "Es Puter Sdr Sugito", rating: "★★★★★", address: "Jl. Merbabu Raya Perum Banyumanik Padangsari, Semarang" },
-    { name: "Es Puter Mbak Lien", rating: "★★★★☆", address: "Jl. Pemuda, Semarang" },
-    { name: "Es Puter Cik Me Me", rating: "★★★★☆", address: "Jl. Gajahmada, Semarang" },
-    { name: "Es Puter Express Semarang", rating: "★★★☆☆", address: "Jl. Pandanaran, Semarang" }
+    { name: "Es Puter Gondrong / Pak Kuat", rating: "★★★★★", address: "Jl. Purwosari Raya No.27c, Rejosari, Kec. Semarang Tim., Kota Semarang, Jawa Tengah 50125" },
+    { name: "Es Puter Sari Murni Rejosari", rating: "★★★★☆", address: "Jl. Rejosari V No.33A, Rejosari, Kec. Semarang Tim., Kota Semarang, Jawa Tengah 50125" },
+    { name: "Es Puter Cong Lik", rating: "★★★★☆", address: "Jl. Kh Ahmad Dahlan No.11, Karangkidul, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50136" },
+    { name: "Es Puter Sultan Semarang", rating: "★★★★★", address: "Jl. Sisingamangaraja No.5, Kaliwiru, Kec. Candisari, Kota Semarang, Jawa Tengah 50252" },
+    { name: "Es Puter Tempoe Doeloe", rating: "★★★★★", address: "Jl. Semarang Indah D15 No 31, Tawangmas, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50144" }
   ]
 
   return (

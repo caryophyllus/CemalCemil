@@ -5,10 +5,10 @@ import '../../index.css'
 
 const TokoWedangJahe = () => {
   const tokoList = [
-    { name: "Wedang Jahe Sdr Sugito", rating: "★★★★★", address: "Jl. Merbabu Raya Perum Banyumanik Padangsari, Semarang" },
-    { name: "Wedang Jahe Mbak Lien", rating: "★★★★☆", address: "Jl. Pemuda, Semarang" },
-    { name: "Wedang Jahe Cik Me Me", rating: "★★★★☆", address: "Jl. Gajahmada, Semarang" },
-    { name: "Wedang Jahe Express Semarang", rating: "★★★☆☆", address: "Jl. Pandanaran, Semarang" }
+    { name: "Warung Wedang Jahe Rempah Mbah Jo", rating: "★★★★★", address: "Jl. Menteri Supeno I Semarang No.1, Mugassari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50249" },
+    { name: "Jahe Rempah 57", rating: "★★★★★", address: "Jl. Puspanjolo Barat Raya Barat No.57, Bojongsalaman, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50141" },
+    { name: "Warung Jahe Rempah TLJ", rating: "★★★★★", address: "Jl. Tri Lomba Juang, Mugassari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50249" },
+    { name: "Wedang Jahe Rempah 'Ben Waras'", rating: "★★★★★", address: "Jl. Sukun Raya No.18, Srondol Wetan, Kec. Banyumanik, Kota Semarang, Jawa Tengah 50263" }
   ]
 
   return (

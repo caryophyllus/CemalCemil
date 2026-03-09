@@ -5,10 +5,10 @@ import '../../index.css'
 
 const TokoMoaci = () => {
   const tokoList = [
-    { name: "Kue Moaci Gemini Gang Lombok", rating: "★★★★★", address: "Jl. Gang Lombok No.11, Semarang" },
-    { name: "Kue Moaci Gemini Mbak Lien", rating: "★★★★☆", address: "Jl. Pemuda, Semarang" },
-    { name: "Kue Moaci Gemini Cik Me Me", rating: "★★★★☆", address: "Jl. Gajahmada, Semarang" },
-    { name: "Kue Moaci Gemini Express Semarang", rating: "★★★☆☆", address: "Jl. Pandanaran, Semarang" }
+    { name: "Moaci Gemini", rating: "★★★★★", address: "Jl. RA. Kartini No.19, Karangturi, Kec. Semarang Tim., Kota Semarang, Jawa Tengah 50124" },
+    { name: "Moaci Gemini Kentangan", rating: "★★★★★", address: "JJl. Kentangan Bar. No.101, Sawunggaling, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50136" },
+    { name: "Moaci Gemini Istana Buah", rating: "★★★★☆", address: "Jl. Pandanaran No.100, Pekunden, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50243" },
+    { name: "Moaci Gemini Cabang Madukoro", rating: "★★★★★", address: "Ruko Bizpark, Jl. Madukoro Raya Blok A5, Tawangmas, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50144" }
   ]
 
   return (

@@ -19,9 +19,12 @@ const Kolak = () => {
 
           <div>
             <p>
-              Kolak merupakan hidangan manis berkuah dengan pisang yang menawarkan rasa lembut, legit, dan hangat.
+              Kolak adalah makanan penutup khas Indonesia yang berbahan dasar gula aren atau gula kelapa, santan, dan daun pandan. Kolak memiliki rasa yang gurih, manis, dan tekstur yang lembut. Kolak biasanya disajikan hangat, tetapi bisa juga disajikan dingin dengan ditambah es batu sehingga menjadi es kolak. Meski saat ini sudah dapat ditemui di mana saja, tetapi kolak sejatinya berasal dari Jawa.
             </p>
             <br />
+            <p>
+              Di Indonesia, kolak merupakan hidangan yang disukai masyarakat sebagai salah satu menu berbuka puasa di bulan Ramadhan. Pada bulan tersebut, penjual makanan musiman yang menjual kolak dapat dengan mudah ditemukan di pinggir jalan raya perkotaan. Selain buah pisang, kolak biji salak juga kerap ditemui saat bulan Ramadhan. Kolak biji salak terbuat dari ubi jalar yang dibentuk bulat, lalu dicampur dengan tepung tapioka.
+            </p>
           </div>
         </div>
 

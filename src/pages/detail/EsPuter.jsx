@@ -19,7 +19,7 @@ const EsPuter = () => {
 
           <div>
             <p>
-              Es Puter merupakan es tradisional bertekstur lembut dengan rasa manis segar dan aneka varian.
+              Es puter, Es dung dung (juga ditulis es dong dong, es tung tung, dan es tong tong) atau Es podeng adalah salah satu hidangan pencuci mulut dari Indonesia serupa es krim berbahan dasar santan sebagai pengganti susu. Es puter memiliki tekstur kasar dan dibekukan secara tradisional dengan sebuah alat berbentuk tabung yang diputar-diputar di dalam es batu dan garam.
             </p>
             <br />
           </div>

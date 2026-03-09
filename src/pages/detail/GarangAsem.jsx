@@ -19,11 +19,11 @@ const GarangAsem = () => {
 
           <div>
             <p>
-              Garang Asem adalah masakan ayam berkuah asam segar yang dimasak dalam daun pisang.
+              Garang asem adalah makanan tradisional khas Jawa Tengah yang dibuat dari olahan ayam yang dimasak menggunakan daun pisang dan didominasi oleh rasa asam dan pedas. Garang asem berasal dari Grobogan tetapi kini garang asem populer di Kudus, bahkan kini Garang Asem ada di beberapa kota di provinsi Jawa Tengah dan DI Yogyakarta memiliki makanan tradisional ini. Antara lain Sragen, Semarang, Magelang, Yogyakarta, Demak, Kudus, Pati, dan Pekalongan.
             </p>
             <br />
             <p>
-              Masakan ini memiliki rasa asam dan pedas yang khas, serta disajikan dengan bumbu rempah khas Semarang.
+              Garang asem biasa disajikan sebagai lauk pendamping nasi, ditambah dengan tusukan ayam asam manis, tempe goreng, dan perkedel.
             </p>
             <br />
           </div>

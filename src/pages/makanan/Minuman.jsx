@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
@@ -11,6 +11,29 @@ import wedangJahe from '../../assets/wedang_jahe.jpg'
 import wedangKembangTahu from '../../assets/wedang_kembang_tahu.jpg'
 
 const Minuman = () => {
+  const [isVisible, setIsVisible] = useState(false)
+
+useEffect(() => {
+  setTimeout(() => {
+    setIsVisible(true)
+  }, 50)
+}, [])
+
+  const text = "MINUMAN"
+  const [displayText, setDisplayText] = useState("")
+  const [index, setIndex] = useState(0)
+
+  useEffect(() => {
+    if (index < text.length) {
+      const timeout = setTimeout(() => {
+        setDisplayText((prev) => prev + text[index])
+        setIndex(index + 1)
+      }, 120)
+
+      return () => clearTimeout(timeout)
+    }
+  }, [index])
+
   const [searchTerm, setSearchTerm] = useState('')
 
   const minuman = [
@@ -77,8 +100,10 @@ const Minuman = () => {
         />
       </div>
 
-      <section>
-        <h2 className="section-title">MINUMAN</h2>
+      <section className={`page-transition ${isVisible ? "show" : ""}`}>
+        <h2 className="section-ti typing">
+          {displayText}
+        </h2>
         <div className="grid-3">
           {filteredDrinks.map((drink, index) => (
             <Link key={index} to={drink.link} style={{textDecoration:'none', color:'inherit'}}>

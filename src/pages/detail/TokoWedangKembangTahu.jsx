@@ -5,10 +5,10 @@ import '../../index.css'
 
 const TokoWedangKembangTahu = () => {
   const tokoList = [
-    { name: "Wedang Kembang Tahu Sdr Sugito", rating: "★★★★★", address: "Jl. Merbabu Raya Perum Banyumanik Padangsari, Semarang" },
-    { name: "Wedang Kembang Tahu Mbak Lien", rating: "★★★★☆", address: "Jl. Pemuda, Semarang" },
-    { name: "Wedang Kembang Tahu Cik Me Me", rating: "★★★★☆", address: "Jl. Gajahmada, Semarang" },
-    { name: "Wedang Kembang Tahu Express Semarang", rating: "★★★☆☆", address: "Jl. Pandanaran, Semarang" }
+    { name: "Wedang Tahu 'Tjoa'", rating: "★★★★★", address: "Jl. Wotgandul Timur, Kranggan, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50139" },
+    { name: "Wedang Tahu Khas Semarang Pak Pardi", rating: "★★★★★", address: "Jl. Gajahmada No.70-C, Bangunharjo, Semarang Tengah, Semarang City, Central Java 50133" },
+    { name: "Wedang Tahu Kranggan", rating: "★★★★★", address: "Jl. Gg. Warung No.26, Kauman, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50139" },
+    { name: "Wedang Tahu Kedung Mundu", rating: "★★★★☆", address: "Jl. Kedungmundu No.22, Kedungmundu, Kec. Tembalang, Kota Semarang, Jawa Tengah 50273" }
   ]
 
   return (

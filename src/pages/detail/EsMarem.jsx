@@ -19,7 +19,7 @@ const EsMarem = () => {
 
           <div>
             <p>
-              Es Marem merupakan es tradisional dengan rasa manis segar yang dibuat dari santan dan gula.
+              Es Marem adalah minuman kuliner legendaris khas Semarang, Jawa Tengah, yang populer sejak tahun 1950-an. Berupa es serut dengan isian lengkap (kelapa muda, kolang-kaling, cincau, tape, kacang sangrai, roti, sirup, dan susu), minuman ini menyajikan kombinasi rasa santan gurih atau jeruk segar yang menyegarkan, terutama saat cuaca panas.
             </p>
             <br />
           </div>

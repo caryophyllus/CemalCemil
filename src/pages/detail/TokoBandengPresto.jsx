@@ -5,11 +5,10 @@ import '../../index.css'
 
 const TokoBandengPresto = () => {
   const tokoList = [
-    { name: "Bandeng Presto Cap Kereta Api", rating: "★★★★★", address: "Jl. Cendrawasih No 14, Purwodinatan Timur, Semarang Tengah." },
-    { name: "Bandeng Presto Pak Moel", rating: "★★★★☆", address: "Jl. Pakunden Tengah No.1110, Semarang" },
-    { name: "Bandeng Presto Chandra", rating: "★★★★☆", address: "Jl. Bakunden Tengah No. 1038, Pakunden, Semarang Tengah" },
-    { name: "Bandeng Presto NN Meniko", rating: "★★★☆☆", address: "Jl. Cendrawasih 08A, Purwodinatan, Semarang Tengah" },
-    { name: "Bandeng Presto Sdr Sugito", rating: "★★★☆☆", address: "Jl.  Merbabu Raya Perum Banyumanik Padangsari, Semarang" }
+    { name: "Bandeng Juwana Elrina Pamularsih", rating: "★★★★★", address: "Jl. Pamularsih Raya No.70, Bongsari, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50148" },
+    { name: "Bandeng Surya", rating: "★★★★★", address: "Jl. Mayjend Sutoyo No.85, Karangkidul, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50241" },
+    { name: "Bandeng Presto Semarang", rating: "★★★★☆", address: "Jl. Pandanaran No.67-69, Randusari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50244" },
+    { name: "Bandeng Bonafide", rating: "★★★★☆", address: "Jl. Pandanaran No.53, Randusari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50244" }
   ]
 
   return (

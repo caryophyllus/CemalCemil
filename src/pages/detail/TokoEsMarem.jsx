@@ -5,10 +5,12 @@ import '../../index.css'
 
 const TokoEsMarem = () => {
   const tokoList = [
-    { name: "Es Marem Sdr Sugito", rating: "★★★★★", address: "Jl. Merbabu Raya Perum Banyumanik Padangsari, Semarang" },
-    { name: "Es Marem Mbak Lien", rating: "★★★★☆", address: "Jl. Pemuda, Semarang" },
-    { name: "Es Marem Cik Me Me", rating: "★★★★☆", address: "Jl. Gajahmada, Semarang" },
-    { name: "Es Marem Express Semarang", rating: "★★★☆☆", address: "Jl. Pandanaran, Semarang" }
+    { name: "Es Marem Pak Zaenal", rating: "★★★★★", address: "Jl. K.H. Wahid Hasyim, Kranggan, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50139" },
+    { name: "Es Marem Puri Anjasmoro", rating: "★★★★★", address: "Jl. K.H. Wahid Hasyim, Kranggan, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50139" },
+    { name: "Es Marem Semarang Indah", rating: "★★★★★", address: "Jl. Semarang Indah, Tawangmas, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50144" },
+    { name: "Es Marem Ibu Kuslin / Doni", rating: "★★★★★", address: "Jl. MT. Haryono No.341b, Jagalan, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50136" },
+    { name: "Es Marem Bu Nur", rating: "★★★★☆", address: "Jl. Mayjend Sutoyo, Karangkidul, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50136" },
+    { name: "Es Marem Arie Kampung Kali", rating: "★★★★☆", address: "Jl. Mayjend Sutoyo, Pekunden, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50134" }
   ]
 
   return (

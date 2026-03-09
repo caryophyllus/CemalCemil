@@ -21,7 +21,6 @@ const LapisLegit = () => {
             <p>
               Lapis Legit adalah kue khas Semarang yang terbuat dari lapisan-lapisan adonan berwarna-warni yang disusun dan dipanggang. Kue ini memiliki tekstur lembut dan rasa manis yang khas, sering kali disajikan sebagai camilan atau makanan penutup.
             </p>
-            <br />
           </div>
         </div>
 

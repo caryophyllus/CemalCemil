@@ -5,11 +5,10 @@ import '../../index.css'
 
 const TokoSoto = () => {
   const tokoList = [
-    { name: "Soto Semarang Cap Kereta Api", rating: "★★★★★", address: "Jl. Cendrawasih No 14, Purwodinatan Timur, Semarang Tengah." },
-    { name: "Soto Semarang Pak Moel", rating: "★★★★☆", address: "Jl. Pakunden Tengah No.1110, Semarang" },
-    { name: "Soto Semarang Chandra", rating: "★★★★☆", address: "Jl. Bakunden Tengah No. 1038, Pakunden, Semarang Tengah" },
-    { name: "Soto Semarang NN Meniko", rating: "★★★☆☆", address: "Jl. Cendrawasih 08A, Purwodinatan, Semarang Tengah" },
-    { name: "Soto Semarang Sdr Sugito", rating: "★★★☆☆", address: "Jl.  Merbabu Raya Perum Banyumanik Padangsari, Semarang" }
+    { name: "Soto Semarang Khas Semarang Pak Man", rating: "★★★★☆", address: "Jl. Pamularsih Raya No.32, Salamanmloyo, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50149" },
+    { name: "Soto Bangkong Semarang", rating: "★★★★☆", address: "Ruko Bangkong Plaza, Jl. Majapahit No.1, Peterongan, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50242" },
+    { name: "Soto Ayam Semarang Pak D", rating: "★★★★★", address: "Ruko Bangkong Plaza, Jl. Majapahit No.1, Peterongan, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50242" },
+    { name: "Soto Seger Semarang", rating: "★★★★★", address: "Jl. Letjen Suprapto No.57, Tj. Mas, Kec. Semarang Utara, Kota Semarang, Jawa Tengah 50137" }
   ]
 
   return (

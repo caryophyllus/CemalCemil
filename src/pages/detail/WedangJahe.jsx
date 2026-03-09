@@ -19,7 +19,7 @@ const WedangJahe = () => {
 
           <div>
             <p>
-              Wedang Jahe merupakan minuman hangat beraroma tajam dengan rasa pedas lembut yang menghangatkan tubuh. Minuman ini memiliki rasa manis dan aromatik yang khas, sering disajikan saat cuaca dingin.
+              Wedang jahe adalah hidangan minuman sari jahe tradisional dari daerah Jawa Tengah, DI Yogyakarta dan Jawa Timur, Indonesia yang umumnya disajikan hangat atau panas. Wedang jahe juga kadang disebut sebagai teh jahe, meskipun sama sekali tidak mengandung daun teh. "Wedang" sendiri adalah istilah dalam bahasa Jawa yang berarti "Minuman Rebus".
             </p>
             <br />
           </div>

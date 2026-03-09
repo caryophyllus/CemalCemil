@@ -19,11 +19,11 @@ const MieKopyok = () => {
 
           <div>
             <p>
-              Mie Kopyok adalah mie khas Semarang yang biasa disajikan dengan lontong, tauge, dan kerupuk gendar.
+              Mi kopyok adalah hidangan berbahan dasar mi dari Semarang.Dengan isian mi kuning, kuah bawang, lontong, taoge, tahu, taburan seledri dan kerupuk gendar di atasnya. Mi kopyok ini merupakan salah satu makanan khas kota Semarang yang susah ditemukan di tempat lain. Mi kopyok kebanyakan dijajakan dengan gerobak keliling dari kampung ke kampung.
             </p>
             <br />
             <p>
-              Masakan ini memiliki rasa asam dan pedas yang khas, serta disajikan dengan bumbu rempah khas Semarang.
+              Mi kopyok atau mi lontong juga disebut sebagai mi teng-teng karena penjualnya suka memukul piring dan berbunyi "Teng-teng-teng" sebagai tanda untuk memasarkan dagangannya.
             </p>
             <br />
           </div>

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { useEffect, useState } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import '../index.css'
@@ -8,9 +9,38 @@ import bandeng_presto from '../assets/bandeng_presto.jpeg'
 import tahu_gimbal from '../assets/tahu_gimbal.jpeg'
 import wingko_babat from '../assets/wingko_babat.jpg'
 import es_puter from '../assets/es_puter.jpg'
-import kue_moaci from '../assets/moaci_gemini.jpg'
+import nasiAyam from '../assets/nasi_ayam.jpg'
+import mieKopyok from '../assets/mie_kopyok.jpg'
+import garangAsem from '../assets/garang_asem.jpg'
+import kueMoaci from '../assets/moaci_gemini.jpg'
+import lapisLegit from '../assets/lapis_legit_waiki.jpg'
+import kolak from '../assets/kolak.jpg'
 
 const Category = () => {
+  const [isVisible, setIsVisible] = useState(false)
+
+useEffect(() => {
+  setTimeout(() => {
+    setIsVisible(true)
+  }, 50)
+}, [])
+
+  const text = "REKOMENDASI KULINER"
+  const [displayText, setDisplayText] = useState("")
+  const [index, setIndex] = useState(0)
+  const [searchTerm, setSearchTerm] = useState("")
+
+  useEffect(() => {
+    if (index < text.length) {
+      const timeout = setTimeout(() => {
+        setDisplayText((prev) => prev + text[index])
+        setIndex(index + 1)
+      }, 120)
+
+      return () => clearTimeout(timeout)
+    }
+  }, [index])
+  
   const foods = [
     {
       name: 'Lunpia Semarang',
@@ -47,18 +77,65 @@ const Category = () => {
       desc: 'Es tradisional bertekstur lembut dengan rasa manis segar.',
       image: es_puter,
       link: "/es-puter"
+    },
+    {
+      name: 'Nasi Ayam Semarang',
+      desc: 'Nasi dengan ayam suwir berbumbu khas Semarang yang gurih dan lezat.',
+      image: nasiAyam,
+      link: "/nasi-ayam"
+    },
+    {
+      name: 'Mie Kopyok',
+      desc: 'Mie dengan kuah ringan berisi lontong, tauge, dan kerupuk gendar khas Semarang.',
+      image: mieKopyok,
+      link: "/mie-kopyok"
+    },
+    {
+      name: 'Garang Asem',
+      desc: 'Olahan ayam berkuah segar dengan perpaduan rasa asam, pedas, dan gurih, dimasak dalam daun pisang.',
+      image: garangAsem,
+      link: "/garang-asem"
+    },
+    {
+      name: 'Kue Moaci',
+      desc: 'Kue tradisional khas Semarang dengan tekstur lembut dan rasa manis.',
+      image: kueMoaci,
+      link: "/kue-moaci"
+    },
+    {
+      name: 'Lapis Legit Waiki',
+      desc: 'Kue lapis legit dengan cita rasa rempah yang kaya dan tekstur lembut.',
+      image: lapisLegit,
+      link: "/lapis-legit"
+    },
+    {
+      name: 'Kolak',
+      desc: 'Hidangan manis berisi pisang, ubi, dan kolang-kaling dalam kuah santan gula merah.',
+      image: kolak,
+      link: "/kolak"
     }
   ]
   
+  // Filter foods by search term
+  const filteredFoods = foods.filter(food =>
+    food.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    food.desc.toLowerCase().includes(searchTerm.toLowerCase())
+  )
+
   return (
     <>
       <Header />
-      
-      {/* Simple Category Buttons */}
+
+      {/* Category Buttons + Search */}
       <div style={{
         padding: '1.5rem',
         background: 'white',
-        borderBottom: '1px solid #eee'
+        borderBottom: '1px solid #eee',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        flexWrap: 'wrap',
+        gap: '1rem'
       }}>
         <div style={{
           display: 'flex',
@@ -115,14 +192,29 @@ const Category = () => {
             Minuman
           </Link>
         </div>
+        <input
+          type="text"
+          placeholder="Cari makanan..."
+          value={searchTerm}
+          onChange={e => setSearchTerm(e.target.value)}
+          style={{
+            padding: '10px',
+            borderRadius: '8px',
+            border: '1px solid #ccc',
+            minWidth: '220px',
+            fontSize: '1rem',
+            marginLeft: 'auto'
+          }}
+        />
       </div>
 
       {/* Food Grid */}
-      <section style={{ padding: '3rem 1.5rem' }}>
-        <h2 className="section-title">REKOMENDASI MAKANAN</h2>
-        
+      <section className={`page-transition ${isVisible ? "show" : ""}`} style={{ padding: '3rem 1.5rem' }}>
+        <h2 className="section-ti typing">
+          {displayText}
+        </h2>
         <div className="grid-3">
-          {foods.map((food, index) => (
+          {filteredFoods.map((food, index) => (
             <Link to={food.link} key={index} style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="card" style={{ cursor: 'pointer' }}>
                 <img 
