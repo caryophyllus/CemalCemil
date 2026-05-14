@@ -45,7 +45,13 @@ const Home = () => {
     },
     { name: "Malay Imelda", presensi: "22", image: guwe },
     { name: "Radella Alicia Rianto", presensi: "27", image: rad },
-    { name: "Tegar Aldiansyah", presensi: "33", image: gar },
+    { 
+      name: "Tegar Aldiansyah", 
+      presensi: "33", 
+      image: gar,
+      whatsapp: "6288200526640",
+      github: "https://github.com/tegaraldiansyah2872008-sketch2"
+    },
   ]
 
   const openDevModal = (dev) => {
@@ -221,7 +227,7 @@ useEffect(() => {
             <p style={{ textAlign: 'center' }}>Presensi: {modalData.presensi}</p>
             
             {/* Social Media Icons */}
-            {modalData.email && (
+            {(modalData.email || modalData.instagram || modalData.github || modalData.linkedin || modalData.whatsapp) && (
               <div style={{ 
                 display: 'flex', 
                 justifyContent: 'center', 
@@ -229,95 +235,70 @@ useEffect(() => {
                 marginTop: '1.5rem',
                 flexWrap: 'wrap'
               }}>
-                <a 
-                  href={`mailto:${modalData.email}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ 
-                    color: '#333', 
-                    fontSize: '32px',
-                    transition: 'color 0.3s',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}
-                  onMouseEnter={(e) => e.currentTarget.style.color = '#EA4335'}
-                  onMouseLeave={(e) => e.currentTarget.style.color = '#333'}
-                >
-                  <MdEmail />
-                </a>
+                {modalData.email && (
+                  <a 
+                    href={`mailto:${modalData.email}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: '#333', fontSize: '32px', transition: 'color 0.3s', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                    onMouseEnter={(e) => e.currentTarget.style.color = '#EA4335'}
+                    onMouseLeave={(e) => e.currentTarget.style.color = '#333'}
+                  >
+                    <MdEmail />
+                  </a>
+                )}
                 
-                <a 
-                  href={`https://instagram.com/${modalData.instagram}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ 
-                    color: '#333', 
-                    fontSize: '32px',
-                    transition: 'color 0.3s',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}
-                  onMouseEnter={(e) => e.currentTarget.style.color = '#E4405F'}
-                  onMouseLeave={(e) => e.currentTarget.style.color = '#333'}
-                >
-                  <FaInstagram />
-                </a>
+                {modalData.instagram && (
+                  <a 
+                    href={`https://instagram.com/${modalData.instagram}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: '#333', fontSize: '32px', transition: 'color 0.3s', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                    onMouseEnter={(e) => e.currentTarget.style.color = '#E4405F'}
+                    onMouseLeave={(e) => e.currentTarget.style.color = '#333'}
+                  >
+                    <FaInstagram />
+                  </a>
+                )}
                 
-                <a 
-                  href={modalData.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ 
-                    color: '#333', 
-                    fontSize: '32px',
-                    transition: 'color 0.3s',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}
-                  onMouseEnter={(e) => e.currentTarget.style.color = '#181717'}
-                  onMouseLeave={(e) => e.currentTarget.style.color = '#333'}
-                >
-                  <FaGithub />
-                </a>
+                {modalData.github && (
+                  <a 
+                    href={modalData.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: '#333', fontSize: '32px', transition: 'color 0.3s', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                    onMouseEnter={(e) => e.currentTarget.style.color = '#181717'}
+                    onMouseLeave={(e) => e.currentTarget.style.color = '#333'}
+                  >
+                    <FaGithub />
+                  </a>
+                )}
                 
-                <a 
-                  href={modalData.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ 
-                    color: '#333', 
-                    fontSize: '32px',
-                    transition: 'color 0.3s',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}
-                  onMouseEnter={(e) => e.currentTarget.style.color = '#0A66C2'}
-                  onMouseLeave={(e) => e.currentTarget.style.color = '#333'}
-                >
-                  <FaLinkedin />
-                </a>
+                {modalData.linkedin && (
+                  <a 
+                    href={modalData.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: '#333', fontSize: '32px', transition: 'color 0.3s', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                    onMouseEnter={(e) => e.currentTarget.style.color = '#0A66C2'}
+                    onMouseLeave={(e) => e.currentTarget.style.color = '#333'}
+                  >
+                    <FaLinkedin />
+                  </a>
+                )}
                 
-                <a 
-                  href={`https://wa.me/${modalData.whatsapp}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ 
-                    color: '#333', 
-                    fontSize: '32px',
-                    transition: 'color 0.3s',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}
-                  onMouseEnter={(e) => e.currentTarget.style.color = '#25D366'}
-                  onMouseLeave={(e) => e.currentTarget.style.color = '#333'}
-                >
-                  <FaWhatsapp />
-                </a>
+                {modalData.whatsapp && (
+                  <a 
+                    href={`https://wa.me/${modalData.whatsapp}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: '#333', fontSize: '32px', transition: 'color 0.3s', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                    onMouseEnter={(e) => e.currentTarget.style.color = '#25D366'}
+                    onMouseLeave={(e) => e.currentTarget.style.color = '#333'}
+                  >
+                    <FaWhatsapp />
+                  </a>
+                )}
               </div>
             )}
           </div>
